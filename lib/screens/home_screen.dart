@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int currentIndex = 0;
  final List homeScreens =[const DashboardScreen(),const TriphistoryScreen(),const ProfileScreen(),const MenuScreen()];
    //final screens=[const HomeScreen(),const TriphistoryScreen(),const ProfileScreen(),const MenuScreen()]; 
-  List<String> screentitle=['Home','Search','About','Settings'];
+ // List<String> screentitle=['Home','Search','About','Settings'];
 
 
   @override

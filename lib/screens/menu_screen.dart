@@ -19,9 +19,9 @@ class MenuScreen extends StatelessWidget {
           ),
           body:Column(children: [Image.asset("assets/images/menu.jpeg",height: 120,),
           const Padding(
-            padding: EdgeInsets.all(6),
-            child: Text("      NIBATEK CHEMICALS PVT LTD is an emerging establishment engaged in Trading of bulk speciality chemicals and transpotation ",
-            style: TextStyle(color:Color(0xff03c03c,),fontSize: 15 ),),
+            padding: EdgeInsets.all(10),
+            child: Text("   NIBATEK CHEMICALS PVT LTD is an emerging establishment engaged in Trading of bulk and speciality chemicals and transpotation ",
+            style: TextStyle(color:Color(0xff03c03c,),fontSize: 15,fontWeight: FontWeight.w500 ,),),
           ),],) ,
          
           

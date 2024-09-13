@@ -28,7 +28,8 @@ class _SplashScreenState extends State<SplashScreen> {
   }
   @override
   Widget build(BuildContext context) {
-    return Scaffold(  body: Column(mainAxisAlignment: MainAxisAlignment.center,
+    return Scaffold( appBar: AppBar(backgroundColor:const Color(0xff03c03c),toolbarHeight: 15,),
+       body: Column(mainAxisAlignment: MainAxisAlignment.center,
         children: [Align(alignment: Alignment.center,
         child:Image.asset("assets/images/splash_image.jpeg",height: 700,) ,)
     ]

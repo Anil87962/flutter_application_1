@@ -1,9 +1,5 @@
-import 'dart:ui';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_application_1/screens/home_screen.dart';
 
 
@@ -42,7 +38,7 @@ class LoginScreen extends StatelessWidget {
           ),
        const SizedBox(height: 30,),
        const Text("Enter Your Four Digit PIN For LogIn",
-        style: TextStyle(fontSize: 18,color: Colors.black87),
+        style: TextStyle(fontSize: 18,fontWeight: FontWeight.w500, color: Colors.black54),
         ),
         const SizedBox(height:30 ,),//,OtpTextField(
           //numberOfFields: 4,
@@ -159,7 +155,8 @@ class LoginScreen extends StatelessWidget {
                },
                            style: 
                           ElevatedButton.styleFrom(minimumSize: 
-                         const Size.fromHeight(40),backgroundColor:const Color(0xff03c03c)), child: Text("Submit",
+                         const Size.fromHeight(40),backgroundColor:const Color(0xff03c03c)),
+                          child:const Text("Submit",
                            style: TextStyle(fontSize: 20,color: Colors.white),)),
              ),
             

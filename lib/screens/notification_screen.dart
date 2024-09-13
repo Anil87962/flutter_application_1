@@ -12,6 +12,6 @@ class NotificationScreen extends StatelessWidget {
      icon: const Icon(Icons.arrow_back_ios,color: Colors.white54,)),
       
       title: const Text("Notifications",style: TextStyle(color: Colors.white),),
-      backgroundColor: const Color(0xff03c03c),toolbarHeight: 35,) ,);
+      backgroundColor: const Color(0xff03c03c),toolbarHeight: 35,),);
   }
 }
