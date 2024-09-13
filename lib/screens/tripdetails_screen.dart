@@ -231,7 +231,7 @@ class _TripdetailsScreenState extends State<TripdetailsScreen> {
                                 ),],) ,),
                           ),
                         )],),
-             Container(height: 30,width: 10,color: Colors.amber,) ],
+              ],
             ),
       ),
         );
